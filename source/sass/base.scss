@@ -1,0 +1,48 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  font-family: $font-primary;
+  font-size: $font-size-base;
+  line-height: $lineheight-base;
+  color: $font-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+.page-wrapper {
+  margin: 0 auto;
+  max-width: $desktop-width;
+  box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: top;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
