@@ -1,7 +1,7 @@
 {
-  "name": "Prepodam",
+  "name": "Art-Bank",
   "private": true,
-  "description": "Prepodam",
+  "description": "Art-Bank",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "9.1.x",

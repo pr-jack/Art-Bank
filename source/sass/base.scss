@@ -31,15 +31,19 @@ h1, h2 {
 
 .page-wrapper {
   margin: 0 auto;
-  max-width: $desktop-width;
+  max-width: 1300px;
   box-shadow: 0 5px 15px 0 rgba(0, 1, 1, 0.2);
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: $desktop-width;
 }
 
 .button {
   display: inline-block;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
   vertical-align: top;
   border: none;
   background: none;
